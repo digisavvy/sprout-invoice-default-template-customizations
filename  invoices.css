@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,900");
+#header {
+  background-color: #fbfbfb;
+  border-bottom: dashed 1px #ccc;
+  color: #232323; }
+  @media only screen and (min-width: 768px) {
+    #header .inner {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-gap: 10px; } }
+  #header .inner img {
+    grid-column: 1 / 5;
+    height: auto; }
+  #header .inner .row.intro {
+    grid-column: 7/13;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    align-self: center;
+    align-items: flex-end;
+    font-size: 26px; }
+  @media only screen and (min-width: 0) {
+    #header .inner .row.history_message {
+      grid-column: 4/10; }
+      #header .inner .row.history_message .open {
+        background-color: #17cedb;
+        color: #fbfbfb;
+        width: 100%; } }
+  @media only screen and (min-width: 768px) {
+    #header .inner .row.history_message {
+      grid-column: 4/10; }
+      #header .inner .row.history_message .open {
+        background-color: #17cedb;
+        color: #fbfbfb;
+        max-width: 250px; } }
+  #header .inner span {
+    font-size: 26px; }
+  #header .row.intro h1 {
+    display: none; }
+  #header #header .inner .intro span {
+    font-size: 26px; }
+  @media only screen and (min-width: 0) {
+    #header h2.invoice-, #header h2.invoice-pending, #header h2.invoice-void, #header h2.invoice-paid, #header h2.invoice-temp {
+      display: block;
+      float: none;
+      margin: auto;
+      margin-bottom: 20px; } }
+  @media only screen and (min-width: 768px) {
+    #header h2.invoice-, #header h2.invoice-pending, #header h2.invoice-void, #header h2.invoice-paid, #header h2.invoice-temp {
+      float: right;
+      margin-bottom: 0; } }
+  #header h2.invoice-, #header h2.invoice-pending, #header h2.invoice-void, #header h2.invoice-paid, #header h2.invoice-temp {
+    border: solid 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+    padding: 0 20px;
+    border-radius: 50px; }
+    #header h2.invoice-pending {
+      color: #ff7800; }
+    #header h2.invoice-void {
+      color: #da3e17; }
+    #header h2.invoice-paid {
+      color: #18cc21e6; }
+    #header h2.invoice-temp {
+      color: #999; }
+
+#header .inner span {
+  font-size: 28px !important; }
+  @media only screen and (min-width: 768px) {
+    #header .inner span {
+      float: right; } }

@@ -9,57 +9,15 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/_estimates.scss": {
-		"aP": 0,
+	"\/estimates-min.css": {
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
+		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_estimates.css",
+		"oA": 0,
+		"oAP": "\/estimates-min-min.css",
 		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_grid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_grid.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_invoices.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_invoices.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oS": 3
 		},
 	"\/estimates.css": {
 		"aP": 1,
@@ -81,7 +39,59 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/main-est.scss": {
+	"\/scss\/_estimates.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_estimates.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_invoices.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_invoices.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/main-est.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -94,7 +104,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/main-inv.scss": {
+	"\/scss\/main-inv.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -102,8 +112,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/invoices.css",
-		"oF": 3,
+		"oAP": "\/ invoices.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -127,83 +137,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/theme\/default\/attachments-info\/thumbnails-no-links-pdf.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/attachments-info\/thumbnails-no-links-pdf.php",
-		"oF": 0
-		},
-	"\/theme\/default\/attachments-info\/thumbnails-no-links.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/attachments-info\/thumbnails-no-links.php",
-		"oF": 0
-		},
-	"\/theme\/default\/attachments-info\/thumbnails-pdf.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/attachments-info\/thumbnails-pdf.php",
-		"oF": 0
-		},
-	"\/theme\/default\/attachments-info\/thumbnails.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/attachments-info\/thumbnails.php",
-		"oF": 0
-		},
-	"\/theme\/default\/checkout\/autopay-selection.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/checkout\/autopay-selection.php",
-		"oF": 0
-		},
-	"\/theme\/default\/checkout\/bacs\/form.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/checkout\/bacs\/form.php",
-		"oF": 0
-		},
-	"\/theme\/default\/checkout\/card-selection.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/checkout\/card-selection.php",
-		"oF": 0
-		},
-	"\/theme\/default\/checkout\/checks\/form.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/checkout\/checks\/form.php",
-		"oF": 0
-		},
-	"\/theme\/default\/checkout\/credit-card\/form.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/checkout\/credit-card\/form.php",
-		"oF": 0
-		},
-	"\/theme\/default\/checkout\/popayment\/form.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/checkout\/popayment\/form.php",
-		"oF": 0
-		},
-	"\/theme\/default\/checkout\/price-option.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/checkout\/price-option.php",
-		"oF": 0
-		},
 	"\/theme\/default\/customizer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -221,29 +154,12 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/theme\/default\/estimate\/estimate-pdf.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/estimate\/estimate-pdf.php",
-		"oF": 0
-		},
 	"\/theme\/default\/estimate\/estimate.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/theme\/default\/estimate\/estimate.php",
 		"oF": 0
-		},
-	"\/theme\/default\/estimate\/estimates.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/theme\/default\/estimate\/estimates-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/theme\/default\/estimate\/line-items.php": {
 		"cB": 0,
@@ -259,13 +175,6 @@
 		"oAP": "\/theme\/default\/functions.php",
 		"oF": 0
 		},
-	"\/theme\/default\/invoice\/invoice-pdf.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/invoice\/invoice-pdf.php",
-		"oF": 0
-		},
 	"\/theme\/default\/invoice\/invoice.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -273,28 +182,11 @@
 		"oAP": "\/theme\/default\/invoice\/invoice.php",
 		"oF": 0
 		},
-	"\/theme\/default\/invoice\/invoices.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/theme\/default\/invoice\/invoices-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"\/theme\/default\/invoice\/line-items.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/theme\/default\/invoice\/line-items.php",
-		"oF": 0
-		},
-	"\/theme\/default\/invoice\/payment-options.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/theme\/default\/invoice\/payment-options.php",
 		"oF": 0
 		},
 	"\/theme\/default\/logo.png": {
@@ -307,175 +199,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/theme\/default\/styles\/_buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_intro.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_intro.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_invoice-items.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_invoice-items.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_invoice-totals.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_invoice-totals.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_invoice.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_invoice.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_notes.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_notes.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_panel.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_panel.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_paybar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_paybar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_setup.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_setup.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/theme\/default\/styles\/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/theme\/default\/styles\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/theme\/default\/styles\/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		}
 	},
 "hooks": [

@@ -80,11 +80,11 @@
         
         &pending {
             @extend .invoice-;
-            color: orange;
+            color: $orange;
         }
         &void {
             @extend .invoice-;
-            color: rgb(218, 62, 23);
+            color: $red;
         }
         &paid {
             @extend .invoice-;
