@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,900");
+.sa_estimate-template-default #paybar .inner .button.decline_estimate {
+  background-color: red !important;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 4px; }
+  .sa_estimate-template-default #paybar .inner .button.decline_estimate:before {
+    content: "\f153"; }
+
+.sa_estimate-template-default a.button.accept_estimate {
+  background-color: #18cc21e6;
+  font-size: 16px; }
+
+.sa_estimate-template-default a.button.accept_estimate:before {
+  content: "\f529";
+  font-family: Dashicons;
+  font-weight: bold !important;
+  position: relative;
+  top: 2px;
+  right: 3px; }
+
+.sa_estimate-template-default a#sign_doc {
+  background-color: #ff7800 !important;
+  font-weight: bold;
+  border: solid 1px #ff7800;
+  font-size: 16px; }
+
+.sa_estimate-template-default .inner.estimate-expire .button {
+  background-color: orange; }
+
+.sa_estimate-template-default .inner.estimate-expire {
+  color: #ff0000 !important; }
+
+@media only screen and (min-width: 0) {
+  .sa_estimate-template-default .estimate-approved, .sa_estimate-template-default .estimate-other {
+    color: #18cc21e6;
+    color: #18cc21e6;
+    border: solid 1px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 97%; } }
+
+@media only screen and (min-width: 768px) {
+  .sa_estimate-template-default .estimate-approved, .sa_estimate-template-default .estimate-other {
+    max-width: 255px; } }
+
+.sa_estimate-template-default .estimate-other {
+  color: #ff0000; }
+
+.sa_estimate-template-default #header {
+  background-color: #fbfbfb;
+  border-bottom: dashed 1px #ccc;
+  color: #232323; }
+  @media only screen and (min-width: 768px) {
+    .sa_estimate-template-default #header .inner {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-gap: 10px; } }
+  .sa_estimate-template-default #header .inner img {
+    grid-column: 1 / 5;
+    height: auto; }
+  .sa_estimate-template-default #header .inner .row.intro {
+    grid-column: 7/13;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    align-self: center;
+    align-items: flex-end;
+    font-size: 26px; }
+  @media only screen and (min-width: 0) {
+    .sa_estimate-template-default #header .inner .row.intro .title h2 {
+      display: inline-block;
+      margin-left: 5px; }
+    .sa_estimate-template-default #header .inner .row.title {
+      margin-bottom: 20px; } }
+  @media only screen and (min-width: 768px) {
+    .sa_estimate-template-default #header .inner .row.intro .title {
+      display: flex;
+      justify-content: center;
+      width: 100%; }
+    .sa_estimate-template-default #header .inner .row.title {
+      float: right;
+      margin-bottom: 0;
+      max-width: 260px; } }
+  @media only screen and (min-width: 0) {
+    .sa_estimate-template-default #header .inner .row.history_message {
+      grid-column: 4/10; }
+      .sa_estimate-template-default #header .inner .row.history_message .open {
+        background-color: #17cedb;
+        color: #fbfbfb;
+        width: 100%; } }
+  @media only screen and (min-width: 768px) {
+    .sa_estimate-template-default #header .inner .row.history_message {
+      grid-column: 4/10; }
+      .sa_estimate-template-default #header .inner .row.history_message .open {
+        background-color: #17cedb;
+        color: #fbfbfb;
+        max-width: 250px; } }
+  @media only screen and (min-width: 768px) {
+    .sa_estimate-template-default #header .inner span {
+      float: right; } }
+  .sa_estimate-template-default #header .inner span {
+    font-size: 26px; }
+  .sa_estimate-template-default #header .row.intro h1 {
+    display: none; }
+  .sa_estimate-template-default #header #header .inner .intro span {
+    font-size: 26px; }
+  @media only screen and (min-width: 0) {
+    .sa_estimate-template-default #header h2.invoice-, .sa_estimate-template-default #header h2.invoice-pending, .sa_estimate-template-default #header h2.invoice-void, .sa_estimate-template-default #header h2.invoice-paid, .sa_estimate-template-default #header h2.invoice-temp {
+      display: block;
+      float: none;
+      margin: auto;
+      margin-bottom: 20px; } }
+  @media only screen and (min-width: 768px) {
+    .sa_estimate-template-default #header h2.invoice-, .sa_estimate-template-default #header h2.invoice-pending, .sa_estimate-template-default #header h2.invoice-void, .sa_estimate-template-default #header h2.invoice-paid, .sa_estimate-template-default #header h2.invoice-temp {
+      float: right;
+      margin-bottom: 0; } }
+  .sa_estimate-template-default #header h2.invoice-, .sa_estimate-template-default #header h2.invoice-pending, .sa_estimate-template-default #header h2.invoice-void, .sa_estimate-template-default #header h2.invoice-paid, .sa_estimate-template-default #header h2.invoice-temp {
+    border: solid 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+    min-width: 250px;
+    padding: 0 20px;
+    border-radius: 50px; }
+    .sa_estimate-template-default #header h2.invoice-pending {
+      color: orange; }
+    .sa_estimate-template-default #header h2.invoice-void {
+      color: #da3e17; }
+    .sa_estimate-template-default #header h2.invoice-paid {
+      color: #18cc21e6; }
+    .sa_estimate-template-default #header h2.invoice-temp {
+      color: #999; }

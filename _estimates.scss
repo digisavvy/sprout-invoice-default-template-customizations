@@ -1,0 +1,192 @@
+.sa_estimate-template-default {
+    #paybar .inner .button.decline_estimate {
+        background-color: red !important;
+        font-weight: bold;
+        color: #fff;
+        font-size: 16px;
+        margin-left: 4px;
+        &:before {
+            content: "\f153";
+        }
+    }
+    a.button.accept_estimate {
+        background-color: $green;
+        font-size: 16px;
+    }
+    a.button.accept_estimate:before {
+        content: "\f529";
+        font-family: Dashicons;
+        font-weight: bold !important;
+        position: relative;
+        top: 2px;
+        right: 3px;
+    }
+    a#sign_doc {
+        background-color: #ff7800!important;
+        font-weight: bold;
+        border: solid 1px #ff7800;
+        font-size: 16px;
+    }
+    .inner.estimate-expire .button {
+        background-color: orange;
+    }
+    .inner.estimate-expire {
+        color: #ff0000 !important;
+    }
+    @include grid-media($sm) {
+        .estimate-approved {
+            color: $green;
+            color: #18cc21e6;
+            border: solid 1px;
+            text-align: center;
+            border-radius: 50px;
+            font-size: 16px;
+            text-transform: uppercase;
+            width: 97%;
+        }
+    }
+    @include grid-media($md) {
+        .estimate-approved {
+            max-width: 255px;
+        }
+    }
+
+    .estimate-other {
+        @extend .estimate-approved;
+        color: #ff0000;
+    }
+    #header {
+        background-color: $white;
+        border-bottom: dashed 1px #ccc;
+        color: $black;
+    
+        .inner {
+            @include grid-media($md) {
+                display: grid;
+                grid-template-columns: repeat(12, 1fr);
+                grid-gap: 10px;
+                // grid-auto-rows: minmax(100px, auto);
+            }
+    
+    
+            img {
+                grid-column: 1 / 5;
+                height: auto;
+            }
+            .row.intro {
+                grid-column: 7/13;
+                font-family: "Nunito Sans", sans-serif;
+                font-weight: 900;
+                align-self: center;
+                align-items: flex-end;
+                font-size: 26px;
+
+                .row.title {
+                    // border: solid 1px;
+                    // text-align: center;
+                    // border-radius: 50px;
+                    // font-size: 16px;
+                    // text-transform: uppercase;
+                }
+            }
+            @media only screen and (min-width: 0) {
+                .row.intro .title h2 {
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+                .row.title {
+                    margin-bottom: 20px;
+                }
+            }
+            @media only screen and (min-width: 768px) {
+                .row.intro .title  {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                }
+                .row.title {
+                    float: right;
+                    margin-bottom: 0;
+                    max-width: 260px;
+                }
+            }
+
+            @media only screen and (min-width: 0) {
+                .row.history_message {
+                    grid-column: 4/10;
+                    .open {
+                        background-color: $digiblue;
+                        color: $white;
+                        width: 100%;
+                    }
+                }
+            }
+            @media only screen and (min-width: 768px) {
+                .row.history_message {
+                    grid-column: 4/10;
+                    .open {
+                        background-color: $digiblue;
+                        color: $white;
+                        max-width: 250px;
+                    }
+                }
+            }
+            @media only screen and (min-width: 768px) {
+                span {
+                    float: right;
+                    
+                }
+            }
+            span {
+                font-size: 26px;
+            }
+            
+        }
+    
+        .row.intro h1 {
+            display: none;
+        }
+        #header .inner .intro span {
+            font-size: 26px;
+        }
+        @media only screen and (min-width: 0) {
+            h2.invoice- {
+                display: block;
+                float: none;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+        }
+        @media only screen and (min-width: 768px) {
+            h2.invoice- {
+                float: right;
+                margin-bottom: 0;
+            }
+        }
+        h2.invoice- {
+            border: solid 1px;
+            font-size: 18px;
+            text-transform: uppercase;
+            min-width: 250px;
+            padding: 0 20px;
+            border-radius: 50px;
+            
+            &pending {
+                @extend .invoice-;
+                color: orange;
+            }
+            &void {
+                @extend .invoice-;
+                color: rgb(218, 62, 23);
+            }
+            &paid {
+                @extend .invoice-;
+                color: $green;
+            }
+            &temp {
+                @extend .invoice-;
+                color: #999;
+            }
+        }
+    }
+}
