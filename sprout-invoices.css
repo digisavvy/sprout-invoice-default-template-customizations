@@ -63,6 +63,19 @@ a#sign_doc {
     text-align: center;
     font-weight: bold;
 }
+@media only screen and (min-width: 768px) {
+    .row.messages {
+        grid-column: 4/10;
+        position: relative;
+        top: 115px;
+        color: #fff;
+    }
+}
+p.sa-message.info {
+    background-color: orange !important;
+    font-weight: bold !important;
+    border: 2px solid orange !important;
+}
 .panel .inner input[type="text"], .panel .inner input[type="email"] {
     float: left;
     padding: 16px 0 3px 0;
